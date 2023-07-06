@@ -1,0 +1,53 @@
+.metro {
+    color:#fff;
+    position:absolute;
+    left:50%;
+    top:0px;
+    margin-left:-500px;
+    width:1000px;
+ }
+.metro .color0 {
+    background:#0072bc;
+    width:400px;
+    height:450px;
+ }
+.metro .color1 {
+    background:#cd4900;
+    width:400px;
+    height:200px;
+}
+.metro .color2 {
+    background:#008641;
+    width:400px;
+    height:200px;
+}
+.metro ul {
+    list-style:none;
+}
+.metro li {
+    padding:20px;
+    overflow:auto;
+}
+.metro li:hover {
+    opacity:0.8;
+}
+.metro .left .color0 {
+    float:left;
+}
+.metro .left .color1 {
+    margin-left:450px; /*400px (width) + 2*20px (padding) + 10px (spacing)*/
+}
+.metro .left .color2 {
+    margin-left:450px;
+    margin-top:10px; /*spacing*/
+}
+.metro .right .color1, .metro .right .color2 {
+    float:left;
+}
+.metro .right .color1 {
+    margin-left:-440px; /*400px (width) + 2*20px (padding)*/
+    margin-top:250px; /*200px (height) + 2*20px (padding) + 10px (spacing)*/
+}
+.metro .right .color0 {
+    margin-left:450px;
+}
